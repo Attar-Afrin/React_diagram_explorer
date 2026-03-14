@@ -55,7 +55,7 @@ npm run dev
 
 Open the browser and visit:
 
-http://localhost:5173
+(http://localhost:5173/)
 
 How It Works
 

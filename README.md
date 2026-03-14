@@ -1,18 +1,77 @@
-# React + Vite
+# React Diagram Dashboard
+A simple React dashboard where users can upload a circuit diagram image and view a list of circuit components.
+This project demonstrates basic React concepts such as component structure, state management, and simple UI interaction.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+* Upload circuit diagram images (PNG/JPG)
+* Preview the uploaded image
+* Display uploaded file name
+* Zoom In / Zoom Out / Reset image view
+* Sidebar showing circuit components
+* Highlight selected component from the list
+* Responsive layout for desktop and tablet screens
 
-Currently, two official plugins are available:
+## Project Structure
+diagram-dashboard
+│
+├── index.html
+├── package.json
+├── src
+│   ├── components
+│   │   ├── UploadBox.jsx
+│   │   ├── DiagramViewer.jsx
+│   │   ├── ComponentList.jsx
+│   ├── pages
+│   │   └── Dashboard.jsx
+│   ├── services
+│   │   └── api.js
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+* React
+* Vite
+* JavaScript
+* CSS
 
-## React Compiler
+## Mock Data
+The project uses mock API data to simulate detected circuit components.
+Example:
+Resistor
+Capacitor
+Diode
+Transistor
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Getting Started
+1. Clone the repository
+git clone https://github.com/your-username/react-diagram-dashboard.git
+2. Navigate to project folder
+cd react-diagram-dashboard
+3. Install dependencies
+npm install
+4. Run the project
+npm run dev
 
-Note: This will impact Vite dev & build performances.
+Open the browser and visit:
 
-## Expanding the ESLint configuration
+http://localhost:5173
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+How It Works
+
+1. User uploads a circuit diagram image.
+2. The image is displayed in the diagram viewer.
+3. Users can zoom in, zoom out, or reset the image view.
+4. A list of circuit components is displayed in the sidebar.
+5. Clicking a component highlights it in the interface.
+
+## Future Improvements
+
+* Detect components directly from uploaded diagrams
+* Add drag and drop image upload
+* Improve diagram highlighting for selected components
+
+## Author
+
+Developed as a React practice project to demonstrate dashboard UI and component-based architecture.
+

@@ -1,0 +1,97 @@
+.container {
+  padding: 20px;
+  font-family: Arial;
+  background-color: #fafaf5;
+}
+
+h2{
+  color:#5a3e36;
+}
+
+.uploadBox {
+  margin-bottom: 10px;
+}
+
+.dashboard {
+  display: flex;
+  margin-top: 20px;
+}
+
+.viewer {
+  width: 70%;
+  text-align: center;
+  background:#fff8f0;
+  padding:15px;
+  border-radius:6px;
+}
+
+.controls button {
+  margin: 5px;
+  padding:6px 10px;
+  border:none;
+  background:#e07a5f;
+  color:white;
+  cursor:pointer;
+}
+
+.controls button:hover{
+  background:#c65f45;
+}
+
+.diagramImage {
+  max-width: 100%;
+  transition: transform 0.3s;
+}
+
+.componentList {
+  width: 30%;
+  border-left: 2px solid #d6ccc2;
+  padding-left: 15px;
+}
+
+.component {
+  padding: 8px;
+  cursor: pointer;
+  border-radius:4px;
+}
+
+.component:hover {
+  background-color: #f2e9e4;
+}
+
+.selected {
+  background-color: #81b29a;
+  color:white;
+}
+
+@media (max-width: 768px) {
+
+  .dashboard {
+    flex-direction: column;
+  }
+
+  .viewer {
+    width: 100%;
+  }
+
+  .componentList {
+    width: 100%;
+    border-left: none;
+    margin-top: 20px;
+  }
+
+}
+.imageWrapper{
+  position: relative;
+  display: inline-block;
+}
+
+.highlightBox{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #ffb703;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}

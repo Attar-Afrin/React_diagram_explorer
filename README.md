@@ -53,9 +53,7 @@ npm install
 4. Run the project
 npm run dev
 
-Open the browser and visit:
-
-(http://localhost:5173/)
+Live Demo: https://react-diagram-explorer.vercel.app/
 
 How It Works
 

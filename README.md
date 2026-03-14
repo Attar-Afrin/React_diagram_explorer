@@ -45,7 +45,7 @@ Transistor
 
 Getting Started
 1. Clone the repository
-git clone https://github.com/your-username/react-diagram-dashboard.git
+git clone (https://github.com/Attar-Afrin/React_diagram_explorer)
 2. Navigate to project folder
 cd react-diagram-dashboard
 3. Install dependencies
